@@ -51,22 +51,13 @@ public class Realm {
                 int health = player.getHealth();
                 if(gold > 0) {
                     System.out.println(String.format("У вас %s валюты. Введите сколько золота вы готовы спустить?", gold));
-                    int cash = 0;
+                    /*int cash = 0;
                     BufferedReader brr;
                     //Инициализируем BufferedReader
                     brr = new BufferedReader(new InputStreamReader(System.in));
-                    command(brr.readLine());
-                    player.
-                    new Player() {
-                        @Override
-                        public void buy() {
-                            // делать -что-то
-                        }
-                    };
-                }
+                    command(brr.readLine());*/
 
-
-                } else System.out.println("Ваш кошелек пуст");
+                } else System.out.println("Ваш кошелёк пуст");
             }
             break;
             case "2": {
